@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(253, 217, 253);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.buttons button {
+  background-color: rgb(224, 141, 251);
+  color: rgb(0, 0, 0);
+  font-family: "Arial";
+  font-weight: bold;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.buttons :hover {
+  background-color: rgb(46, 3, 85);
+  color: aliceblue;
+}
+#result {
+  display: none;
+  margin-top: 0px;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
